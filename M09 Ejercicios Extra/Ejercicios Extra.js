@@ -107,7 +107,7 @@ function buscoInterseccion(array1, array2) {
    // Si no tienen elementos en común, retornar un arreglo vacío.
    // [PISTA]: los arreglos no necesariamente tienen la misma longitud.
    var array3 = []
-     for (let i = 0 ; i < array1.lengtht ; i++) {
+     for (let i = 0 ; i < array1.length ; i++) {
          if (array2.includes(array1[i])) {
            array3.push(array1[i]) 
          }
